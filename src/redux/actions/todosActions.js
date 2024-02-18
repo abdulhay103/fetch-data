@@ -5,7 +5,7 @@ import {
   SUCCESS_TODOS,
 } from "../constants/todosConstants";
 
-export const getTodos = async (dispatch) => {
+export const getTodos = () => async (dispatch) => {
   dispatch({ type: GET_TODOS });
   try {
     const res = await axios.get("https://jsonplaceholder.typicode.com/todos");
