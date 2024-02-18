@@ -7,7 +7,7 @@ export default function Todos() {
         Todos With Fatching Data
       </h1>
       <div className=" grid grid-cols-12 gap-6">
-        <div className=" col-span-12 lg:col-span-4 2xl:col-span-3 border shadow-md rounded-sm">
+        <div className=" col-span-12 lg:col-span-4 2xl:col-span-3 border shadow-md rounded-sm overflow-hidden">
           <h4 className=" text-center bg-gray-500 px-6 py-2 text-white font-bold">
             Id-1
           </h4>
